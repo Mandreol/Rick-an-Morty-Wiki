@@ -47,7 +47,9 @@ function App() {
 
 	return (
 		<div className="App">
-			<div className="header">
+			<div
+				className="header"
+				style={{ backgroundImage: "url(./fondeHeader.jpg)" }}>
 				<img src="./rick-and-morty-31013.png" alt="" />
 				<form onSubmit={handleSumit}>
 					<button className="button">Search</button>

@@ -14,9 +14,7 @@ const CardResident = ({ url }) => {
 
 	return (
 		<article className="card-resident">
-			<header
-				className="card-resident_header"
-				style={{ backgroundImage: "url(./fondeHeader.jpg)" }}>
+			<header className="card-resident_header">
 				<img src={resident?.image} alt="" />
 
 				<div className="header-status">
