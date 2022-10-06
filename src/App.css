@@ -13,7 +13,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	background-image: url(./fondeHeader.jpg);
 	background-size: cover;
 	background-position: center;
 }
