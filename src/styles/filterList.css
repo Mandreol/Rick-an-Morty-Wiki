@@ -1,0 +1,16 @@
+.filterList {
+	position: absolute;
+	width: 345px;
+	top: 349px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: rgb(80, 95, 94);
+	z-index: 5;
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
+
+.filterList li:hover {
+	background-color: rgb(85, 255, 142);
+	cursor: pointer;
+}

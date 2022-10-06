@@ -1,0 +1,29 @@
+.card-resident_header {
+	position: relative;
+}
+
+.header-status {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: absolute;
+	top: 10px;
+	z-index: 100;
+	background-color: rgb(80, 95, 94);
+	gap: 1rem;
+	border-radius: 0px 1rem 1rem 0px;
+	width: 110px;
+	padding-left: 0.5rem;
+}
+.card-footer span {
+	font-weight: 700;
+}
+
+.card-footer h3 {
+	text-align: center;
+}
+.circle {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
